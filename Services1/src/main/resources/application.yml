@@ -1,0 +1,6 @@
+grpc:
+  server:
+    # ??t port cho Service A
+    port: 6565
+server:
+  port: 8080

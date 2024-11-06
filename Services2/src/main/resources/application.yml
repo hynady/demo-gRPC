@@ -1,0 +1,6 @@
+grpc:
+  server:
+    # Đặt port cho Service B
+    port: 6566
+server:
+  port: 8081

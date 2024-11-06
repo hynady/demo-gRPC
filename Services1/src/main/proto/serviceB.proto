@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package serviceB;
+
+option java_package = "com.example.grpc.services2";
+option java_outer_classname = "ServiceBProto";
+
+service ServiceB {
+  rpc sayHelloB (serviceB.HelloRequest) returns (serviceB.HelloResponse);
+}
+
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloResponse {
+  string message = 1;
+}
